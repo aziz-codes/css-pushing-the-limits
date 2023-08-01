@@ -9,6 +9,10 @@ ul {
 ul li {
   border-bottom: 1px solid #000;
 }
-ul li:last-child {
+/* ul li:last-child {
   border-bottom: none;
+} */
+
+ul li:nth-child(3) {
+  color: red !important;
 }
